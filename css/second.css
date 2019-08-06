@@ -41,15 +41,6 @@ text-align: center;
 text-transform: uppercase;
 
 }
-.container-about{
-position: absolute;
-width: 430px;
-height: 218px;
-left: 120px;
-top: 379px;
-color: white;
-
-}
 .jobinfo{
     font-family: Roboto;
 font-style: normal;
@@ -107,7 +98,7 @@ line-height: 23px;
     position: absolute;
   
     width: 100%;
-    height: 2px;
+    height: 2.4px;
     
     background-color: #FFFFFF;
   
@@ -164,27 +155,13 @@ line-height: 23px;
   .menu__item:hover {
     background-color: #CFD8DC;
   }
-  .aboutjob{
-    position: absolute;
-    width: 171px;
-    height: 43.05px;
-    left: 839px;
-    top: 302px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 42px;
-    
-    color: #FFFFFF;
-  }
+
   .aboutphotosession{
     position: absolute;
     width: 437px;
     height: 246.27px;
     left: 839px;
-    top: 356.06px;
+    top: 380px;
     
     font-family: Roboto;
     font-style: normal;
@@ -250,4 +227,58 @@ line-height: 42px;
 
 color: #FFFFFF;
 
+}
+.aboutjob{
+    position: absolute;
+    width: 171px;
+    height: 43.05px;
+    left: 839px;
+    top: 302px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 42px;
+    
+    color: #FFFFFF;
+  }
+  .aboutsph{
+    position: absolute;
+    width: 437px;
+    height: 246.27px;
+    left: 839px;
+    top: 379px;
+  }
+  .aboutphoto{
+      text-align: left;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 23px;
+    border: 0;  
+    color: white;
+  }
+  .container-about{
+    position: absolute;
+    width: 430px;
+    height: 218px;
+    left: 120px;
+    top: 379px;
+    color: white;
+    
+    }
+.Sasha{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
 }
