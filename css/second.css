@@ -120,40 +120,45 @@ line-height: 23px;
     top: 0;
     left: -100%;
   
-    width: 240px;
+    width: 540px;
     height: 100%;
   
     margin: 0;
-    padding: 80px 0;
+    padding-left: 60px ;
   
     list-style: none;
   
-    background-color: #ECEFF1;
+    background-color: #14151A;
     
     box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
   
     transition-duration: .25s;
   }
   .liitem{
-      margin-top: 69%;
+      margin-top: 43%;
   }
   
   .menu__item {
     display: block;
-    padding: 12px 60px;
+    /* padding: 12px 60px; */
     
-    color: #333;
+    color: #FFFFFF;
   
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 51px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
   
     text-decoration: none;
   
     transition-duration: .25s;
   }
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: none;
   }
 
   .aboutphotosession{
@@ -281,4 +286,15 @@ line-height: 21px;
 text-align: center;
 letter-spacing: 0.08em;
 text-transform: uppercase;
+}
+.GalleryPhoto{
+
+}  
+.photogalleryaccept{
+  color: white;
+  text-decoration: none;
+}
+.photogalleryaccept:active{
+  text-decoration: none;
+  color:white;
 }
