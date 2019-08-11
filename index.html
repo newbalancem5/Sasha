@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
+    <link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous"
+/>
     <title>#ШЛАШЛАУВИДЕЛА</title>
 </head>
 <body>
@@ -28,7 +34,7 @@
             <h3 class="Sasha">SASCHA GROM</h3>
         </div>
        
-    <div class="col main-container">
+    <!-- <div class="col main-container">
             <div class="abouts">
               <p class="">ОБ АВТОРЕ</p>
             </div>
@@ -45,15 +51,37 @@
                   
             </p>
           </div>
-        </div>   
-        <div class="col photo-container">
+        </div>    -->
+        <!-- <div class="col photo-container">
             <div class="photophone1">
                 <p></p>            
           </div>
           <div class="photophone2">
               
           </div>
-        </div>
+        </div> -->
+        <Accordion defaultActiveKey="0">
+            <Card>
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                  Click me!
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="0">
+                <Card.Body>Hello! I'm the body</Card.Body>
+              </Accordion.Collapse>
+            </Card>
+            <Card>
+              <Card.Header>
+                <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                  Click me!
+                </Accordion.Toggle>
+              </Card.Header>
+              <Accordion.Collapse eventKey="1">
+                <Card.Body>Hello! I'm another body</Card.Body>
+              </Accordion.Collapse>
+            </Card>
+          </Accordion>
         <div class="col social">
               <div >
                 <img class="fb" src="./image/social-icon/facebook.svg" alt="">

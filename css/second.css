@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .main , .col , .photo-container{
     display: inline-block;
 }
@@ -19,45 +20,29 @@ body{
 .main-container{
     width: 70%;
     height: 100vh;
-  
+}
+.container{
+  width: 371px;
+  height: 246px;
 
 }
+.titlejobs{
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+}
+.title{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 42px;
+  color: #FFFFFF
+}
 
-.about{
-  border: 1px solid black;
-  width: 158px;
-  height: 48px;
-  left: 240px;
-top: 301px;
-margin-left: 2.5%;
-position: absolute;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 18px;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-
-}
-.jobinfo{
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 23px;
-}
-.abouts{
-  background: #2E303B;
-  color: white;
-  width: 158px;
-  height: 48px;
-  text-align: center;
-  margin-left: 16%;
-  margin-top: 284px;
-  border: 1px solid black;
-}
 #menu__toggle {
     opacity: 0;
   }
@@ -145,13 +130,13 @@ line-height: 23px;
     color: #FFFFFF;
   
     font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 51px;
-display: flex;
-align-items: center;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
   
     text-decoration: none;
   
@@ -159,6 +144,7 @@ text-transform: uppercase;
   }
   .menu__item:hover {
     background-color: none;
+    text-decoration: none;
   }
 
   .aboutphotosession{
@@ -178,7 +164,16 @@ text-transform: uppercase;
     
     mix-blend-mode: normal;
   }
-  .vk{
+  .fa{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 95.14%;
+    right: 3.39%;
+    top: 43.89%;
+    bottom: 53.78%;
+}
+.vk{
     width: 21px;
     height: 21px;
     position: absolute;
@@ -197,42 +192,12 @@ text-transform: uppercase;
     top: 53.67%;
     bottom: 44%;
   }
-  .fb{
-    width: 21px;
-    height: 21px;
-    position: absolute;
-    left: 95.14%;
-    right: 3.39%;
-    top: 43.89%;
-    bottom: 53.78%;
-    
-  }
-  .Gallery{
-    position: absolute;
-width: 158px;
-height: 48px;
-left: 0px;
-top: 139.67px;
-color: white;
-border: 1px solid #FFFFFF;
-text-align: center;
-}  
-.titlecontainer{
-position: absolute;
-width: 110px;
-height: 43.05px;
-left: 120px;
-top: 302px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 30px;
-line-height: 42px;
-
-color: #FFFFFF;
-
+.maininfo{
+  margin-top: 10%;
+  margin-left: 122px;
 }
+
 .aboutjob{
     position: absolute;
     width: 171px;
@@ -265,27 +230,18 @@ color: #FFFFFF;
     border: 0;  
     color: white;
   }
-  .container-about{
-    position: absolute;
-    width: 430px;
-    height: 218px;
-    left: 120px;
-    top: 379px;
-    color: white;
-    
-    }
 .Sasha{
     color: white;
     text-align: center;
     padding-top: 20px;
     font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 21px;
-text-align: center;
-letter-spacing: 0.08em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 .GalleryPhoto{
 
